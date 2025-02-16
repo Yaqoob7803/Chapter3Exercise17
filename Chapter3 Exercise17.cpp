@@ -1,7 +1,7 @@
 /*
 
 file name:Chapter3exercise17.cpp
-GitHub URL
+GitHub URL:https://github.com/Yaqoob7803/Chapter3Exercise17/blob/main/Chapter3%20Exercise17.cpp
 programmer:Yaqoob Nagi
 Date:February 2025
 Requirements:
