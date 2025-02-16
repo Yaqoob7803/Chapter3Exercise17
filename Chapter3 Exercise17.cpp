@@ -1,7 +1,7 @@
 /*
 
 file name:Chapter3exercise17.cpp
-GitHub URL
+GitHub URLhttps://github.com/Yaqoob7803/Chapter3Exercise17/edit/main/Chapter3%20Exercise17.cpp#L4C10
 programmer:Yaqoob Nagi
 Date:February 2025
 Requirements:
@@ -29,17 +29,17 @@ int main()
     cout << "+" << num2 << endl; 
     cout << "_____" << endl;
 
-    cout << "Press any key to see the answer" << endl;
-    cin.get();
+    int correct_answer = num1 + num2;
 
-    int answer = num1 + num2;
-    cout << num1 << endl;
-    cout << "+" << num2 << endl;
-    cout << "_____" << endl;
-    cout << answer << endl;
-
-
-
+    int user_answer; 
+    cout << "Enter your answer: " << endl;
+    cin >> user_answer;
+    
+    if (user_answer == correct_answer){
+        cout << "you are correct!" << endl;
+    } else {
+        cout << "your answer is not correct." << endl;
+    }    
 
     return 0;
 }
